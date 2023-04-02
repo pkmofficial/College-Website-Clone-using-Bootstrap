@@ -1,0 +1,124 @@
+.heading {
+    background-color: #3b1257 ;
+    color: black;
+    /* text-align: left; */
+  }
+.clg-name {
+    margin-left: 1%;
+}
+.clg-logo {
+    border-radius: 100%;
+    /* display: inline-block; */
+    /* padding: 2%; */
+}
+
+/* crousel */
+#crousel {
+    background-color: #4b386f ;
+}
+.crousel-content {
+    padding: 5% 15%;
+    /* margin: 3%; */
+}
+.card {
+    background-color: #6e4fdc;
+}
+/* person */
+#person {
+    text-align: center;
+    padding: 5%;
+    background-color: #8368e3;
+}
+.hod-img {
+    border-radius: 100%;
+}
+.card-parent {
+    padding: 5%;
+}
+
+.map {
+    padding-left: 0;
+    padding-right: 0;
+}
+.map-container {
+    height: 100%;
+}
+
+/* table */
+.name {
+    text-align: center;
+}
+#notice {
+    text-align: center;
+    width: 70dvw;
+    margin: 10% auto;
+}
+.table-container {
+    padding: 0 auto;
+    width: 100%;
+    height: 50vh;
+}
+.name {
+    text-align: left;
+}
+/* footer */ 
+table {
+    margin: 0 auto ;
+    width: 50%;
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#footer {
+    background-color: #e8fff8;
+}
+#footer table{
+    /* background-color: #e8fff8; */
+    width: 50%;
+}
+#footer h1{
+    padding-top: 4%;
+    text-align: center;
+}
+#footer first-row {
+}
+#footer .row {
+    padding: 5%;
+}
+#footer .col-md-6 {
+    margin: 1% 0;
+}
+.contact-form {
+    padding-top: 4%;
+    border: 8px groove rgb(165, 244, 165);
+
+}
+.submit-button {
+    margin-top: 3%;
+    text-align: center;
+}
+#bottom {
+    background-color: white;
+    text-align: center;
+    padding: 1%;
+}
+#bottom i{
+    display: inline-block;
+    margin: 2% 2% 0;
+}
+/* media */
+@media (max-width:1024px ) {
+    .clg-name {
+        display: none;
+    }
+    .navbar-brand {
+        display: inline-block;
+        margin: 1%;
+    }
+    .second-card {
+        margin: 10% auto;
+    }
+}
+/* 8368e3 */
