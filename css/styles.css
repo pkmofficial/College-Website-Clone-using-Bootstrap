@@ -1,8 +1,19 @@
+body {
+    background-color: #97dec0;
+    font-family: 'Lato', sans-serif;
+}
+/* font-family: 'Montserrat', sans-serif; */
 .heading {
     background-color: #3b1257 ;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: 10px;
     color: black;
     /* text-align: left; */
-  }
+}
+#navbarSupportedContent {
+    font-family: 'Lato', sans-serif;
+}
 .clg-name {
     margin-left: 1%;
 }
@@ -15,9 +26,11 @@
 /* crousel */
 #crousel {
     background-color: #4b386f ;
+    font-family: 'Lato', sans-serif;
 }
 .crousel-content {
     padding: 5% 15%;
+    font-family: 'Ubuntu', sans-serif; 
     /* margin: 3%; */
 }
 .card {
@@ -29,11 +42,20 @@
     padding: 5%;
     background-color: #8368e3;
 }
+#person h2 {
+    color: #decfe2;
+}
+#person p {
+    color: rgb(206, 197, 197);
+}
 .hod-img {
     border-radius: 100%;
 }
 .card-parent {
     padding: 5%;
+}
+.card-title {
+    color: #decfe2;
 }
 
 .map {
@@ -48,10 +70,21 @@
 .name {
     text-align: center;
 }
+#notice h3 {
+    padding-bottom: 2%;
+    color: black;
+}
+#notice button {
+    margin-top: 2%;
+    /* color: black; */
+}
 #notice {
     text-align: center;
     width: 70dvw;
     margin: 10% auto;
+    border: 1px solid rgb(175, 172, 7);
+    padding: 1% ;
+    border-radius: 2%;
 }
 .table-container {
     padding: 0 auto;
@@ -72,7 +105,7 @@ table, th, td {
     border-collapse: collapse;
 }
 #footer {
-    background-color: #e8fff8;
+    background-color: #aafabf;
 }
 #footer table{
     /* background-color: #e8fff8; */
@@ -82,17 +115,18 @@ table, th, td {
     padding-top: 4%;
     text-align: center;
 }
-#footer first-row {
-}
+/* #footer first-row {
+} */
 #footer .row {
     padding: 5%;
 }
 #footer .col-md-6 {
     margin: 1% 0;
+    padding: 0 1%;
 }
 .contact-form {
     padding-top: 4%;
-    border: 8px groove rgb(165, 244, 165);
+    border: 3px groove rgb(183, 242, 183);
 
 }
 .submit-button {
@@ -100,7 +134,7 @@ table, th, td {
     text-align: center;
 }
 #bottom {
-    background-color: white;
+    background-color: #d3fecf;
     text-align: center;
     padding: 1%;
 }
